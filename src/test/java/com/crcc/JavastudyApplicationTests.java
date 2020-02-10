@@ -13,7 +13,7 @@ public class JavastudyApplicationTests {
     @Test
     public void testFail(){
         System.out.println("测试失败示例");
-//        System.out.println(1/0);
+        System.out.println(1/0);
     }
 
 }
