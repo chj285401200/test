@@ -20,7 +20,9 @@ public class GoodsServiceImpl implements GoodsService {
 
     @Override
     public int insertGoods(Goods goods) {
-       return goodsMapper.insert(goods);
+        System.out.println("成功");
+        return 1;
+       /*return goodsMapper.insert(goods);*/
     }
 
     @Override
